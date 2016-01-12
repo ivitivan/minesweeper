@@ -1,0 +1,10 @@
+# Ignore vim files
+*~
+*.swp
+*.swo
+*.swn
+
+# Ignore node files
+node_modules
+npm-debug.log*
+dist
