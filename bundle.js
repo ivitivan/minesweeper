@@ -41269,7 +41269,16 @@ var Root = function (_Component) {
         { className: 'root' },
         _react2.default.createElement(_header2.default, this.state),
         _react2.default.createElement(_gameControls2.default, this.state),
-        _react2.default.createElement(_grid2.default, this.state)
+        _react2.default.createElement(_grid2.default, this.state),
+        _react2.default.createElement(
+          'div',
+          { className: 'rules' },
+          _react2.default.createElement(
+            'p',
+            null,
+            'Click to open the cell. Click and hold to flag the cell.'
+          )
+        )
       );
     }
   }], [{
