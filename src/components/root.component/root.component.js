@@ -25,6 +25,11 @@ export default class Root extends Component {
         <Header {...this.state} />
         <GameControls {...this.state} />
         <Grid {...this.state} />
+        <div className="rules">
+          <p>
+            Click to open the cell. Click and hold to flag the cell.
+          </p>
+        </div>
       </div>
     );
   }
