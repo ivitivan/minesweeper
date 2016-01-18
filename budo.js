@@ -21,7 +21,6 @@ app
   .on('watch', function(type, file) {
     // tell LiveReload to inject some CSS
     if (path.extname(file) === '.jade') {
-      consoleilog('here');
       fs.readFile(file, (err, content) => {
         if (err) throw err;
         const fn = jade.compile(content);
