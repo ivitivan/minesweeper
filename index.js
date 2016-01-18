@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Root from './src/components/root.component';
+
+window.onload = () => {
+  ReactDOM.render(
+    <Root />,
+    document.getElementById('mount-point')
+  );
+};
